@@ -1,6 +1,6 @@
 /* eslint-disable max-statements */
 import {
-    select, all, call, takeEvery, put, takeLatest,
+    all
   } from 'redux-saga/effects';
   
   export default function* rootSaga() {

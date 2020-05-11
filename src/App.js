@@ -41,8 +41,8 @@ const App = () => {
     <Router>
       <Layout style={{ height: "100vh" }}>
         <Layout>
-          <Sider width={200} className="site-layout-background">
-            <img style={{ width: "100%", backgroundColor: '#fff' }} src={logo} alt="Logo" />
+          <Sider width={200} className="site-layout-background side-bar">
+            <img className="logo-image" src={logo} alt="Logo" />
             <Menu
               mode="inline"
               defaultSelectedKeys={['0']}

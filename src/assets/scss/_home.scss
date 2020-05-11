@@ -1,0 +1,12 @@
+.home-page {
+    .publish-date {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 30px;
+    }
+
+    .publish-type {
+        display: flex;
+        flex-direction: column;
+    }
+}
